@@ -8,8 +8,8 @@ import {
 } from '../../types/nutrition';
 
 // Note: You'll need to get a free API key from https://fdc.nal.usda.gov/api-key-signup.html
-const API_KEY = 'VQJSjhLgVklE1GAvDmO40pkeabQQw1fQeTVlZCOH'; // Replace with your API key
-const BASE_URL = 'https://api.nal.usda.gov/fdc/v1';
+const API_KEY = ''; // Replace with your API key
+const BASE_URL = '';
 
 // Search for foods with retry logic
 export const searchFoods = async (query: string): Promise<FoodSearchResult[]> => {
